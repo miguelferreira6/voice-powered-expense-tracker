@@ -1,0 +1,26 @@
+.ThemeSwitcher {
+  position: absolute !important;
+  top: 50px;
+  right: 50px;
+  border-radius: 4px !important;
+  font-size: 12px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ThemeSwitcher span svg {
+  margin-left: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .ThemeSwitcher span span {
+    display: none;
+  }
+}
