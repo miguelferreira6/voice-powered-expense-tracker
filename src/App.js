@@ -8,7 +8,6 @@ import {
 import {
   SpeechState,
   useSpeechContext,
-  UseSpeechContext,
 } from "@speechly/react-client";
 
 import useStyles from "./styles";
